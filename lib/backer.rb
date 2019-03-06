@@ -12,7 +12,7 @@ class Backer
 
   def back_project(project)
     @backed_projects << project
-    binding.pry
+    # binding.pry
     Project.add_backer << self
   end
 end
